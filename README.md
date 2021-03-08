@@ -13,6 +13,8 @@ Tous les days que j'ai fait ont été validé à 100% (je n'ai pas fait les days
 
 L'exercice 12 du c02 (print memory) a été compté faux également. L''eexercice en lui même est bon (c'est à dire qu'il compile (sans les flags \>_\> ) et sort la bonne réponse), mais une variable que je n'utilisais plus a été laissée : c'est mal et c'est 0.
 
+Le reste est ok.
+
 === A venir ===
 
 Des mises à jour de certains exercices dont les résolutions ne sont pas élégantes (comme le print comb n qui est très moche), les pdfs des sujets, ainsi que l'ajout d'explications basiques ou un peu plus "complexes" sur certaines notions que vous aurez à utiliser. Je pense que ce pourra être utile de comprendre comment fonctionne le code si vous n'avez pas (encore ;) ) les bases, plutôt que d'essayer de le lire.
