@@ -13,7 +13,7 @@ Tous les days que j'ai fait ont été validé à 100% (je n'ai pas fait les days
 
 L'exercice 12 du c02 (print memory) a été compté faux également. L''eexercice en lui même est bon (c'est à dire qu'il compile (sans les flags \>_\> ) et sort la bonne réponse), mais une variable que je n'utilisais plus a été laissée : c'est mal et c'est 0.
 
-Les rush01 et rush02 sont FAUX. Pour le rush01 il y a une seule erreur de parsing : lorsque la map entrée est correcte, je n'ai pas fait les checks pour voir s'il n'y avait que des espaces : 0 :s . Pour le rush02 nous ne l'avons pas vraiment fait, le travail rendu est mauvais. Le rush00 est validé à 120%.
+Les rush01 et rush02 sont FAUX. Pour le rush01 il y a une seule erreur de parsing : lorsque la map entrée est correcte, je n'ai pas fait les checks pour voir s'il n'y avait que des espaces entre les chiffres : 0 :s . Pour le rush02 nous ne l'avons pas vraiment fait, le travail rendu est mauvais. Le rush00 est validé à 120%.
 
 Le reste est ok.
 
