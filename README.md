@@ -15,4 +15,4 @@ L'exercice 12 du c02 (print memory) a été compté faux également. L''eexercic
 
 === A venir ===
 
-Des mises à jours de certains exercices dont les résolutions ne sont pas élégantes (comme le print comb n qui est très moche), les pdfs des sujets, ainsi que l'ajout d'explications basique ou un peu plus "complexes" sur certaines notions que vous aurez à utiliser. Je pense que ce pourra être utile de comprendre comment fonctionne le code si vous n'avez pas (encore ;) ) les bases, plutôt que d'essayer de le lire.
+Des mises à jour de certains exercices dont les résolutions ne sont pas élégantes (comme le print comb n qui est très moche), les pdfs des sujets, ainsi que l'ajout d'explications basiques ou un peu plus "complexes" sur certaines notions que vous aurez à utiliser. Je pense que ce pourra être utile de comprendre comment fonctionne le code si vous n'avez pas (encore ;) ) les bases, plutôt que d'essayer de le lire.
