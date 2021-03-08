@@ -2,7 +2,7 @@ Ma piscine de Février 2020.
 
 === Disclaimer ===
 
-Ce repo est là pour proposer des solutions qui peut être différentes des nombreux autres repos concernant la piscine de 42 (paris).
+Ce repo est là pour proposer des solutions qui peuvent être différentes des nombreux autres repos concernant la piscine de 42 (paris).
 Il ne s'agit pas pour vous de copier et coller sans comprendre, même si personnellment je m'en fiche, ce travail n'est pas "personnel" mais le fruit de tout un tas d'intéractions, d'apprentissage etc.
 
 L'idée est plus que vous puissiez comprendre les réponses, les adapter à votre façon de coder, voir d'autres façons d'appréhender un problème donné, filer des pistes de réflexion.
