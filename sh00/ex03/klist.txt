@@ -1,0 +1,6 @@
+Credentials cache: API:11E1FE5C-D9A6-40BA-BA58-CC01DA55CB59
+        Principal: chbadad@42.FR
+
+  Issued                Expires               Principal
+Feb  1 12:43:15 2021  Feb  8 12:43:15 2021  krbtgt/42.FR@42.FR
+Feb  1 12:43:17 2021  Feb  8 12:43:15 2021  HTTP/student-storage-2.42.fr@42.FR
