@@ -9,7 +9,7 @@ L'idée est plus que vous puissiez comprendre les réponses, les adapter à votr
 
 === Nota Bene ===
 
-Tous les days que j'ai fait ont été validé à 100% (je n'ai pas fait les days 10 12 et 13). Par contre, le dernier exo du sh02 est FAUX. Presque fonctionnel, mais faux, pour une sombre histoire d'échappement. ;)
+Tous les days que j'ai fait ont été validé à 100% (je n'ai pas fait les days 10 12 et 13). Par contre, le dernier exo du sh01 est FAUX. Presque fonctionnel, mais faux, pour une sombre histoire d'échappement. ;)
 
 L'exercice 12 du c02 (print memory) a été compté faux également. L''eexercice en lui même est bon (c'est à dire qu'il compile (sans les flags \>_\> ) et sort la bonne réponse), mais une variable que je n'utilisais plus a été laissée : c'est mal et c'est 0.
 
