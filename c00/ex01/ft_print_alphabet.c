@@ -6,6 +6,8 @@
 //imprimé
 // == Lazy tip ==
 // on pourrait écrire : write(1, "abcdefghijklmnopqrstuvwxyz", 26);
+// == Pro tip ==
+// man ascii
 void	ft_print_alphabet(void)
 {
 	char c;
