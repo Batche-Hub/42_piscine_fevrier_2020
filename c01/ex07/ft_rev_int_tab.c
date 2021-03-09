@@ -1,14 +1,7 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_rev_int_tab.c                                   :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: chbadad <marvin@42.fr>                     +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/02/03 10:28:31 by chbadad           #+#    #+#             */
-/*   Updated: 2021/02/03 13:31:02 by chbadad          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
+// Une des façon d'inversion un tableau, ici un tableau d'entiers de type int
+// Il y a de nombreuses manière de faire cela.
+// Par ex avec les opérateur bitwise.
+// duckduckgo ==> bitwise operator
 
 void	ft_rev_int_tab(int *tab, int size)
 {
