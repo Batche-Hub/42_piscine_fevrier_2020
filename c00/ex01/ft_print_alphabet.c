@@ -1,17 +1,11 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_print_alphabet.c                                :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: chbadad <marvin@42.fr>                     +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/02/02 09:45:14 by chbadad           #+#    #+#             */
-/*   Updated: 2021/02/02 09:50:26 by chbadad          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include <unistd.h>
-
+//ici, on utilise la même fonction write que pour putchar.
+//On veut imprimer l'alphabet, soit de la lettre... a (en minuscule) à 'z'.
+// Il y a plusieurs manière de faire. ici, j'incrémente avant d'exécuter l'instruction, il faut donc
+//que je mettre c == au char juste avant 'a'. Si je ne faisais pas cela, 'a' ne serait tout simplement pas
+//imprimé
+// == Lazy tip ==
+// on pourrait écrire : write(1, "abcdefghijklmnopqrstuvwxyz", 26);
 void	ft_print_alphabet(void)
 {
 	char c;
