@@ -2,7 +2,6 @@
 // Il y a de nombreuses manière de faire cela.
 // Par ex avec les opérateur bitwise.
 // duckduckgo ==> bitwise operator
-
 void	ft_rev_int_tab(int *tab, int size)
 {
 	int i;
