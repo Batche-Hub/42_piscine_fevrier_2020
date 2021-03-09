@@ -38,9 +38,9 @@ void	ft_combine(char comb[], int n, int index, int i)
 //Le tableau de référence avec tous les chiffres dans lequel on va se balader
 	arr = "0123456789";
 	j = 0;
-// Cette condition nous permet d'arrêter la récursion.
+// Cette condition nous permet d'arrêter le résultat et de l'imprimer.
 // En effet, le récursion va tester tous les chiffres jusqu'à arriver à index == n, fourni en paramètre, qui est le maximum
-// de taille autorisé. Si mon n == 2 alors dès que mon index est égale à deux (et qu'une combinaison a donc été opérée
+// de taille autorisé. Si mon n == 2 alors dès que mon index est égal à deux (et qu'une combinaison a donc été opérée
 // je vais pouvoir imprimer le résultat.
 	if (index == n)
 	{
