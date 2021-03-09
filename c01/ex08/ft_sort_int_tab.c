@@ -1,15 +1,10 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_sort_int_tab.c                                  :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: chbadad <marvin@42.fr>                     +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/02/03 10:29:58 by chbadad           #+#    #+#             */
-/*   Updated: 2021/02/03 13:17:25 by chbadad          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
+// Méthode divide and conqueer
+// En gros, on sépare notre tableau selon un pivot (au départ) arbitrairement choisi (ici c'est le dernier élément du tableau)
+// Puis on trie en fonction de ce pivot.
+// Et on réorganise le tableau en fonction de ce qu'on avant et après le pivot, qu'on recalcule ensuite, de
+//telle sorte à se rapprocher de plus en plus du pivot et que les index soit égaux (iuls changent en fonction du pivot) et donc le tableau trié.
+// c'est une méthode compliquée mais plus rapide que le tri à bulle etc.
+// Si vous commencez le code, je vous invite à plutôt voir les autres type de tri, plus accessibles (comme le tri à bulle).
 void	ft_swap(int *a, int *b)
 {
 	int temp;
