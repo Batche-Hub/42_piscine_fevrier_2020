@@ -1,17 +1,10 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_is_negative.c                                   :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: chbadad <marvin@42.fr>                     +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/02/02 10:12:37 by chbadad           #+#    #+#             */
-/*   Updated: 2021/02/02 10:18:19 by chbadad          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include <unistd.h>
-
+// Ici on doit définir si un nombre est positif ou négatif
+// Spoil : 0 est positif ;)
+// On peut réutiliser ce qu'on a appris dans les exercices précédents en définissant
+// deux variables : une pour le négatif et l'autre pour le positif
+// Ensuite on teste : si l'entier n est plus que 0, j'imprime mon char qui représente 'N'
+// sinon j'imprime celui qui représente 'P'
 void	ft_is_negative(int n)
 {
 	char p;
