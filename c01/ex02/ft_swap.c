@@ -1,15 +1,7 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_swap.c                                          :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: chbadad <marvin@42.fr>                     +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/02/03 10:27:01 by chbadad           #+#    #+#             */
-/*   Updated: 2021/02/03 10:27:05 by chbadad          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
+// Cette fonction très utile permet "d'échanger la valeur deux deux adresses pointée.
+// == Expérience de pensée ==
+// Si je n'ai pas un nombre temporaire, et que je fais *a = *b et *b = *a
+// et que a = 2 et b = 4, combien vaudront b et a à la fin ?
 void	ft_swap(int *a, int *b)
 {
 	int c;
