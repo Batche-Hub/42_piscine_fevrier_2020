@@ -1,27 +1,21 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_print_comb.c                                    :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: chbadad <marvin@42.fr>                     +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/02/02 14:31:12 by chbadad           #+#    #+#             */
-/*   Updated: 2021/02/02 14:44:17 by chbadad          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include <unistd.h>
 
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
 }
-
+// cett fonction, qu'on verra de façon plus sophistiquée plus tard, sert à "traduire" un entier de type int dans sa représentation dans la table ascii
+// == Lumière ==
+// N'importe quel entier en base 10 % 10 aura pour reste son unité.
+// == Question ==
+// Quelle est, en base 10, la représention du chiffre 0 ?
 void	ft_putnbr(int nb)
 {
 	ft_putchar(nb % 10 + 48);
 }
-
+// Un algo assez simple.
+// Lire correctement l'exemple est fort utile.
+// Plus tard on retrouvera (dans le dernier exo), cette combinaison.
 void	ft_print_comb(void)
 {
 	int i;
