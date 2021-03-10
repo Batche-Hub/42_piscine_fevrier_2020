@@ -1,15 +1,7 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_atoi_base.c                                     :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: chbadad <marvin@42.fr>                     +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/02/07 11:59:35 by chbadad           #+#    #+#             */
-/*   Updated: 2021/02/07 12:01:21 by chbadad          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
+// Voir exercice précédent. S'il est compris, ça ne devrait pas poser de soucis !
+// L'idée c'est que là nous ne sommes plus en base 10, mais en base d'un taille quelconque (> 1)
+// == Idée ==
+// Résoudre l'exo précédent avec cette façon de faire, avec une base 10, comme la notre ( base[] = "0123456789" )
 int	ft_baselen(char *base)
 {
 	int i;
