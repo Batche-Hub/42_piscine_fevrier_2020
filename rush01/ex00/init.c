@@ -1,15 +1,7 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   init.c                                             :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: tfrancoi <marvin@42.fr>                    +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/02/14 13:15:08 by tfrancoi          #+#    #+#             */
-/*   Updated: 2021/02/14 17:06:19 by chbadad          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
+// fonctions pour intialiser le board. L'erreur du rush se trouve dans le fait que si la map entrée est bonne mais que tous les nombres pairs
+// il n'y avait pas que des espaces, je sortais la réponse alors que ça devrait sortir un error().
+// De plus, même si les mallocs sont protégés, il y a quelques leaks par ci par là.
+// Il faudrait pour que ce soit propre free les espaces qui ne sont plus utilisés.
 #include <stdlib.h>
 #include "init.h"
 #include "print_functions.h"
