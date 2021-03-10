@@ -1,15 +1,9 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_strlcat.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: chbadad <marvin@42.fr>                     +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/02/05 08:58:33 by chbadad           #+#    #+#             */
-/*   Updated: 2021/02/05 16:10:56 by chbadad          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
+// Une fonction assez horrible à saisir correctement
+// En gros : si size en param est plus grande ou égale à la taille de dest, on va renvoyer la taille de cette dernière + celle de src
+// Sinon on renvoit la taille de size + src
+// Ca veut dire que si on à src + dest en retour de fonction et que size est strictement plus grande (pour inclure le 0 terminal)
+//que ce résultat , la concaténation aura eu lieu. Sinon ça veut dire que la concaténation aura foiré.
+// Ca paraît simple, mais ça ne l'est pas
 unsigned int	ft_strlen(char *str)
 {
 	int i;
