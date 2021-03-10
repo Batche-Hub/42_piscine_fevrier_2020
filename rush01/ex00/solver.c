@@ -1,15 +1,4 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   solver.c                                           :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: chbadad <marvin@42.fr>                     +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/02/14 14:21:16 by chbadad           #+#    #+#             */
-/*   Updated: 2021/02/14 15:04:13 by chbadad          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
+// la fonction de résolution principale avec backtrack et tout le toutim. Ressemble à s'y méprendre aux dix dames ;)
 #include "solver.h"
 #include "check_places.h"
 
