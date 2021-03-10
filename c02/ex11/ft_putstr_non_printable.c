@@ -21,8 +21,8 @@ int		is_no_printable(unsigned char c)
 	else
 		return (0);
 }
-// La fonction qui sert à mettre en base 16. Ressemble énormément à putnbr. C'est le même principe, si ce n'est qu'ici on sait qu'on ne va pas
-// dépasser 16 en taille. On divise et modulo pou autmatiquement mettre un 0 avant chaque version hexa (par exemple \0a au lieu de \a).
+// La fonction qui sert à mettre en base 16. Ressemble énormément à putnbr. C'est le même principe, si ce n'est qu'ici on n'utilise pas de récursion.
+// On divise et module pour autmatiquement mettre un 0 avant chaque version hexa (par exemple \0a au lieu de \a).
 void	convert_to_hex(unsigned char c)
 {
 	char *hex;
