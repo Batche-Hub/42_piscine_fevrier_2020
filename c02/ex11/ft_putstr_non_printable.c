@@ -1,15 +1,12 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_putstr_non_printable.c                          :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: chbadad <marvin@42.fr>                     +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/02/04 09:57:40 by chbadad           #+#    #+#             */
-/*   Updated: 2021/02/24 12:11:47 by chbadad          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
+// == /!\ ==
+// Si tu es piscineux.se et nouveau/nouvelle en code : cet exercice est plus compliqué que les précédents
+// Si tu ne vois pas comment le faire, que tu ne connais pas comment passer d'une base à un autre
+// Que ça te semble difficile, inutile de faire l'exercice maintenant, tu pourras y revenir plus tard
+//en ayant acquis les connaissances nécessaire à sa résolution ! ==> check c04 qui aide énormément
 
+// Alors exercice assez bizarre, où on manipule des char qu'on caste (càd qu'on met dans un autre type que celui de base)
+// afin de pouvoir imprimer les les char non imprimable en ayant auparavant transofrmé c'est char dans leur valeur ascii en
+// hexadécimal.
 #include <unistd.h>
 
 void	ft_putchar(unsigned char c)
@@ -24,7 +21,7 @@ int		is_no_printable(unsigned char c)
 	else
 		return (0);
 }
-
+// La fonction qui sert à mettre en base 16. Ressemble énormément à putnbr.
 void	convert_to_hex(unsigned char c)
 {
 	char *hex;
@@ -34,7 +31,7 @@ void	convert_to_hex(unsigned char c)
 	ft_putchar(hex[(unsigned char)c / 16]);
 	ft_putchar(hex[(unsigned char)c % 16]);
 }
-
+// la fonction de base
 void	ft_putstr_non_printable(char *str)
 {
 	while (*str)
