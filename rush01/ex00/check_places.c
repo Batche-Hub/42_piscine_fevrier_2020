@@ -1,15 +1,4 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   check_places.c                                     :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: chbadad <marvin@42.fr>                     +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/02/14 14:14:06 by chbadad           #+#    #+#             */
-/*   Updated: 2021/02/14 14:52:57 by chbadad          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
+// C'est similaire aux 10 dames mais en plus dur et long. On check toutes les places et on voit si la board créé correspond aux indicés donnés par une map.
 #include "check_places.h"
 
 int	check_norm_col(int tab[6][6])
