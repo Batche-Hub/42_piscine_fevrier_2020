@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_convert_base2.c                                 :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: chbadad <marvin@42.fr>                     +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/02/15 09:40:56 by chbadad           #+#    #+#             */
-/*   Updated: 2021/02/15 09:41:46 by chbadad          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 int		ft_baselen(char *base)
 {
 	int i;
@@ -70,7 +58,7 @@ int		int_from_base(char *base, char c)
 	}
 	return (-1);
 }
-
+// atoi base, en long pour éviter les galère du min int.
 long	ft_atoi_base(char *str, char *base)
 {
 	long	res;
