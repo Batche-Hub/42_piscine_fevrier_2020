@@ -1,15 +1,4 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    Makefile                                           :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: chbadad <marvin@42.fr>                     +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2021/02/16 16:19:00 by chbadad           #+#    #+#              #
-#    Updated: 2021/02/17 12:17:52 by chbadad          ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
-
+#regarder les vidéos sur l'intra (youtube et intra) + ce lien : https://gl.developpez.com/tutoriel/outil/makefile/
 GCC = gcc
 CCFLAGS = -Wall -Wextra -Werror
 RM = rm -f
@@ -22,7 +11,7 @@ ${OUTPUT}: ${OBJS}
 	ar -rcs ${OUTPUT} ${OBJS}
 
 %.o: %.c
-	${GCC} ${CCFLAGS} -c $< -o $@ ($<.c)-I ${INCLUDES}
+	${GCC} ${CCFLAGS} -c $< -o $@ -I ${INCLUDES}
 
 all: ${OUTPUT}
 
