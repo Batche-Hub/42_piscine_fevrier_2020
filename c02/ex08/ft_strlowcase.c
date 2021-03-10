@@ -1,15 +1,7 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_strlowcase.c                                    :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: chbadad <marvin@42.fr>                     +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/02/03 16:35:38 by chbadad           #+#    #+#             */
-/*   Updated: 2021/02/03 16:35:39 by chbadad          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
+// voir ex02
 
+// Ici en plus de de voir savoir si un char est d'une certaine catégorie (majuscule par exemple)
+// on doit changer la valeur de ce char pour le mettre dans une autre catégorie (majuscule par exemple)
 char	*ft_strlowcase(char *str)
 {
 	int i;
