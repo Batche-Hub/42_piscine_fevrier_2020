@@ -19,4 +19,4 @@ Le reste est ok.
 
 === A venir ===
 
-Des mises à jour de certains exercices dont les résolutions ne sont pas élégantes (comme le print comb n qui est très moche), les pdfs des sujets, ainsi que l'ajout d'explications basiques ou un peu plus "complexes" sur certaines notions que vous aurez à utiliser. Je pense que ce pourra être utile de comprendre comment fonctionne le code si vous n'avez pas (encore ;) ) les bases, plutôt que d'essayer de le lire.
+Les pdfs des sujets.
