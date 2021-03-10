@@ -1,15 +1,4 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_strjoin.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: chbadad <marvin@42.fr>                     +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/02/10 15:42:32 by chbadad           #+#    #+#             */
-/*   Updated: 2021/02/15 09:42:18 by chbadad          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
+// Ici on doit concaténer des chaînes qui sont originellement dans un tableau de tableau avec entre les deux un séparateur.
 #include <stdlib.h>
 
 int		ft_strlen(char *str)
@@ -21,7 +10,8 @@ int		ft_strlen(char *str)
 		i++;
 	return (i);
 }
-
+// Si size est plus petit ou égal à 0, alors je retourne une chaîne vide créée via malloc, car on doit pour "free" la chaîne, ce ne peut intervenir
+// que si on crée la chaîne via malloc.
 char	*ft_strempty(void)
 {
 	char *concat;
@@ -30,7 +20,8 @@ char	*ft_strempty(void)
 	*concat = 0;
 	return (concat);
 }
-
+// Un strcat pimpé pour l'occasion, où on concatère notre chaîne résente à un moment donné, le séparateur puis le nouveau morceau à coller.
+// count nous sert à savoir si on doit coller (ou non) un séparateur. Il y a x mots - 1 de séparateurs (on ne doit pas en mettre à la fin).
 char	*ft_strcat(char *dest, char *src, char *sep, int count)
 {
 	int i;
@@ -58,7 +49,7 @@ char	*ft_strcat(char *dest, char *src, char *sep, int count)
 	dest[i + j + k] = '\0';
 	return (dest);
 }
-
+// la fonction principale
 char	*ft_strjoin(int size, char **strs, char *sep)
 {
 	int		i;
