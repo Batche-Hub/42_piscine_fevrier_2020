@@ -1,15 +1,4 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_foreach.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: chbadad <marvin@42.fr>                     +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/02/21 10:21:56 by chbadad           #+#    #+#             */
-/*   Updated: 2021/02/21 10:32:39 by chbadad          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
+// regarder vidéo sur les pointeurs sur fonctions. On peut utiliser pour tester putnbr
 void	ft_foreach(int *tab, int length, void (*f)(int))
 {
 	while (length--)
