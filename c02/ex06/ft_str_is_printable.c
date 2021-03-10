@@ -1,15 +1,5 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_str_is_printable.c                              :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: chbadad <marvin@42.fr>                     +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/02/03 15:28:16 by chbadad           #+#    #+#             */
-/*   Updated: 2021/02/03 15:35:12 by chbadad          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
+// voir ex02
+// a noter qu'on peut considérer le 'DEL' comme non imprimable, mais team pas DEL de mon côté, c'est plus rapide.
 int	ft_str_is_printable(char *str)
 {
 	while (*str)
