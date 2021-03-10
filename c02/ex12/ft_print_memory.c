@@ -4,7 +4,7 @@
 // L'idée est de singer la mémoire et de montrer :
 // 1) La valeur de l'addresse des char, tous les 16 chars, en hexadécimal
 // 2) Par paire de deux, imprimer dans leur valeur hexadécimal des char
-// 3) imprimer les dits char normalement, sauf pour les nom imprimable en les remplaçant par des '.'
+// 3) imprimer les dits char normalement, sauf pour les non imprimables en les remplaçant par des '.'
 
 // En soi, la partie concernant les impressions (mettre l'adresse en hexa, les chars en hexa etc.)
 // ne pose pas trop de problème une fois qu'on comprend qu'un pointeur sur void est une sorte de cellule souche du code en C ^_^
