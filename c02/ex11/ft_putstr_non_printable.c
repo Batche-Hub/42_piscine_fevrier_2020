@@ -32,7 +32,7 @@ void	convert_to_hex(unsigned char c)
 	ft_putchar(hex[(unsigned char)c / 16]);
 	ft_putchar(hex[(unsigned char)c % 16]);
 }
-// la fonction de base
+// la fonction de base. On caste en unsigned char pour que ça fonctionne car on veut la table ascii étendue (0 à 256).
 void	ft_putstr_non_printable(char *str)
 {
 	while (*str)
