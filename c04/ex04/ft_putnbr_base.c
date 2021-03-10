@@ -1,15 +1,5 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_putnbr_base.c                                   :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: chbadad <marvin@42.fr>                     +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/02/06 13:40:24 by chbadad           #+#    #+#             */
-/*   Updated: 2021/02/07 11:25:24 by chbadad          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
+// C'est comme putnbr, avec une base quelconque.
+// Il faut juste en plus tester si la base est correcte.
 #include <unistd.h>
 
 void	ft_putchar(char c)
