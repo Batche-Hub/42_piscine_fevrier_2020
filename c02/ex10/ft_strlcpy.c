@@ -1,15 +1,6 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_strlcpy.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: chbadad <marvin@42.fr>                     +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/02/04 09:55:27 by chbadad           #+#    #+#             */
-/*   Updated: 2021/02/23 11:22:02 by chbadad          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
+//man strlcpy (sur mac, ou sur internet, elle n'est pas présente de base sur ubuntu)
+//fonction un peu relou qui sert en gros, à nous dire si une copie a été faite correctement ou non
+// (aka si la résultante est tronquée par rapport à la source)
 unsigned int	ft_strlen(char *str)
 {
 	int i;
