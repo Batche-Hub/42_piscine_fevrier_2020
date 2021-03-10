@@ -1,15 +1,6 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_sqrt.c                                          :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: chbadad <marvin@42.fr>                     +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/02/08 10:37:21 by chbadad           #+#    #+#             */
-/*   Updated: 2021/02/08 10:44:23 by chbadad          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
+// Attention au time out !
+// Lors des tests, avant l'exécution time ./a.out
+// 46340 == plus grand racine carrée (entière) qu'on peut trouver dans un int
 int	ft_sqrt(int nb)
 {
 	int sqrt;
