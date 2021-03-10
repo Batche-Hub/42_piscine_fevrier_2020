@@ -1,10 +1,11 @@
 // == /!\ ==
-// Cet exercie est assez difficile. Si vous ne comprenez pas, ne faite pas et revenez dessus plus tard, ou alors travaillez le un peu tous les jours
-// mais par pitié ne copiez pas.
+// Cet exercie est assez difficile. Si vous ne comprenez pas, ne faite pas et revenez dessus plus tard, ou alors travaillez le un peu tous les jours.
+
 // Pour avoir une début de réponse sur ce problème, visitez ce site ==> https://www.geeksforgeeks.org/n-queen-problem-backtracking-3/
 // Ca explique assez bien l'idée derrière ce problème.
+
 // Dans le backtracking, l'important, c'est les REGLES.
-// En soi le backtracking (à le coder, pas à comprendre exactement ce qui se passent au niveau de la machine) n'est pas très difficile à saisir.
+// En soi le backtracking (le coder, pas à comprendre exactement ce qui se passe au niveau de la machine) n'est pas très difficile à saisir.
 // Ce qui l'est plus, c'est de déterminer les règles qui vont faire que notre backtracking arrive à la solution demandée.
 // Lorsque j'avais fait cet exo pour la première fois, j'ai eu un moment plus de 2 milliards de solutions.
 // SPOIL : c'est faux
