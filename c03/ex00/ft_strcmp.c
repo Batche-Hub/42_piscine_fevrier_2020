@@ -1,15 +1,5 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_strcmp.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: chbadad <marvin@42.fr>                     +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/02/04 14:17:37 by chbadad           #+#    #+#             */
-/*   Updated: 2021/02/04 14:26:24 by chbadad          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
+// Cette fonction sert à comparer les valeur ascii entre 2 chaîne de char
+// Si le résultat est négatif, s2 est plus grande que s1, dans le le cas contraire c'est l'inverse, sinon elle sont égales.
 int	ft_strcmp(char *s1, char *s2)
 {
 	int i;
