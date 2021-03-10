@@ -1,15 +1,6 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_strncmp.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: chbadad <marvin@42.fr>                     +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/02/04 14:28:24 by chbadad           #+#    #+#             */
-/*   Updated: 2021/02/04 14:39:20 by chbadad          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
+// man strcmp
+// voir ex00
+// il y a d'autre façon de faire l'exo au niveau des conditions
 int	ft_strncmp(char *s1, char *s2, unsigned int n)
 {
 	unsigned int i;
