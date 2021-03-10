@@ -1,15 +1,5 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_strcat.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: chbadad <marvin@42.fr>                     +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/02/04 14:42:11 by chbadad           #+#    #+#             */
-/*   Updated: 2021/02/04 16:28:09 by chbadad          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
+//man strcat
+// on doit concaténer deux chaînes. Du coup, il faut aller au bout de dest, puis copier src au bout de dest.
 char	*ft_strcat(char *dest, char *src)
 {
 	int i;
