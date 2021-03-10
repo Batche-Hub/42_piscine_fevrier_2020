@@ -1,5 +1,5 @@
 // == /!\ ==
-// Cet exercie est assez difficile. Si vous ne comprenez pas, ne faite pas et revenez dessus plus tard, ou alors travaillez le un peu tous les jours.
+// Cet exercice est assez difficile. Si vous ne comprenez pas, ne faites pas et revenez dessus plus tard, ou alors travaillez le un peu tous les jours.
 
 // Pour avoir une début de réponse sur ce problème, visitez ce site ==> https://www.geeksforgeeks.org/n-queen-problem-backtracking-3/
 // Ca explique assez bien l'idée derrière ce problème.
@@ -124,6 +124,7 @@ int		solve_puzzle(int board[10], int column, int *victory)
 		{
 			board[column] = row;
 			solve_puzzle(board, column + 1, victory);
+			// si la suite renvoie une erreur on met l'endroit à -1 (arbitraire) et on backtrack
 			board[column] = -1;
 		}
 		row += 1;
