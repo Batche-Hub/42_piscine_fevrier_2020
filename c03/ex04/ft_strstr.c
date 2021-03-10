@@ -1,15 +1,5 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_strstr.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: chbadad <marvin@42.fr>                     +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/02/05 08:50:40 by chbadad           #+#    #+#             */
-/*   Updated: 2021/02/06 15:10:03 by chbadad          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
+//façon pas opti de résoudre cet exo mais qui fonctionne plutôt bien.
+//clairement améliorable
 char	*ft_strstr(char *str, char *to_find)
 {
 	char *str_cpy;
