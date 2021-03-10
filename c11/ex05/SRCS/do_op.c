@@ -1,15 +1,4 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   do_op.c                                            :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: chbadad <marvin@42.fr>                     +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/02/21 11:12:49 by chbadad           #+#    #+#             */
-/*   Updated: 2021/02/21 11:35:23 by chbadad          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
+// fonctions qui servent à savoir quelle opération faire et si l'opération est correcte (aka voir si on ne met pas "+-" en opé)
 #include "../includes/do_op.h"
 
 int		check_op(char *str)
