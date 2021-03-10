@@ -1,21 +1,12 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_convert_base.c                                  :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: chbadad <marvin@42.fr>                     +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/02/15 09:38:04 by chbadad           #+#    #+#             */
-/*   Updated: 2021/02/15 09:45:53 by chbadad          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
+// Exercice très long et assez difficile à réussir.
+// On doit partir d'un nombre en une base donnée et le convertir dans une autre base.
+// L'idée c'est de réunir en quelque sorte atoi_base et son pendant itoa base. Je l'ai appelé pour ma part putnbr base, mais c'est pareil.
 #include <stdlib.h>
 
 int		ft_baselen(char *base);
 int		check_base(char *base);
 long	ft_atoi_base(char *str, char *base);
-
+// Notre compteur pour itoa (savoir quelle sera la taille exacte de la chaîne de char finale.
 int		ft_count(long nb, long baselen)
 {
 	int count;
@@ -33,7 +24,7 @@ int		ft_count(long nb, long baselen)
 	}
 	return (count);
 }
-
+// Permet d'inverser la chaîne de char, car avec "ma" façon, on écrit la fin au début et vice-versa
 char	*ft_strrev(char *str)
 {
 	int	i;
@@ -49,7 +40,8 @@ char	*ft_strrev(char *str)
 	}
 	return (str);
 }
-
+// Une fonction un peu useless, car je fais des codes trop longs et que je nsavais pas comment faire autrement avec itoa.
+// Sert à convertir 0 dans la base_to.
 char	*ft_putzero_base(char *base)
 {
 	int		i;
@@ -66,7 +58,7 @@ char	*ft_putzero_base(char *base)
 	convert[i] = 0;
 	return (convert);
 }
-
+// itoa
 char	*ft_putnbr_base(long nbr, char *base)
 {
 	int		i;
@@ -94,7 +86,7 @@ char	*ft_putnbr_base(long nbr, char *base)
 	ft_strrev(convert);
 	return (convert);
 }
-
+// la fonction principale
 char	*ft_convert_base(char *nbr, char *base_from, char *base_to)
 {
 	int cpy;
