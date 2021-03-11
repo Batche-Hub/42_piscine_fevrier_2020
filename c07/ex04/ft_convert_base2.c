@@ -58,7 +58,7 @@ int		int_from_base(char *base, char c)
 	}
 	return (-1);
 }
-// atoi base, en long pour éviter les galère du min int.
+// atoi base, en long pour éviter les galères du min int.
 long	ft_atoi_base(char *str, char *base)
 {
 	long	res;
