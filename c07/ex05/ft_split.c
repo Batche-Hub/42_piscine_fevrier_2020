@@ -1,6 +1,6 @@
-//cet exo et l'inverse de str_join. On découpe notre chaine selon un séparateur quelconque pour ranger les résultats dans un tableau de tableau.
+//cet exo est l'inverse de str_join. On découpe notre chaîne selon un séparateur quelconque pour ranger les résultats dans un tableau de tableau.
 #include <stdlib.h>
-// sert à déterminer si un char fait partie de la chaîne separatrice
+// sert à déterminer si un char fait partie de la chaîne séparatrice
 int		ft_is_sep(char c, char *sep)
 {
 	while (*sep)
@@ -19,7 +19,7 @@ int		nb_wrds(char *str, char *sep)
 	count = 0;
 	while (*str)
 	{
-		// tant que le char fait partie du spéarateur j'incrémente
+		// tant que le char fait partie du séparateur j'incrémente
 		while (*str && ft_is_sep(*str, sep))
 			str++;
 		//si ça ne fait pas partie de la chaîne séparatrice, j'augmente mon nombre de mot de 1, puis tant que ce n'est pas
