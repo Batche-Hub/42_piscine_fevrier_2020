@@ -1,7 +1,7 @@
-// Voir exercice précédent. S'il est compris, ça ne devrait pas poser de soucis !
+// Voir exercice 03. S'il est compris, ça ne devrait pas poser de soucis !
 // L'idée c'est que là nous ne sommes plus en base 10, mais en base d'une taille quelconque (> 1)
 // == Piste ==
-// Résoudre l'exo précédent avec cette façon de faire, avec une base 10, comme la notre ( base[] = "0123456789" )
+// Résoudre l'exo 03 avec cette façon de faire, avec une base 10, comme la notre ( base[] = "0123456789" )
 int	ft_baselen(char *base)
 {
 	int i;
