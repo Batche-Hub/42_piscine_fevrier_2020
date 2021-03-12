@@ -5,9 +5,9 @@ Ma piscine de Février 2021.
 Ce repo est là pour proposer des solutions qui peuvent être différentes des nombreux autres repos concernant la piscine de 42 (paris).
 Il ne s'agit pas pour vous de copier et coller sans comprendre, même si personnellment je m'en fiche, ce travail n'est pas "personnel" mais le fruit de tout un tas d'intéractions, d'apprentissage etc.
 
-L'idée est plus que vous puissiez comprendre les réponses, les adapter à votre façon de coder, voir d'autres façons d'appréhender un problème donné, filer des pistes de réflexion. C'est très important de bien comprendre ce qu'on fait, même si parfois on peut reprendre des choses qu'on ne pige pas trop trop au début. En soi, ce n'est pas "mal", il n'y a pas de notion morale là dedans, ce qui est dommageable c'est de faire de cette pratique une marque de fabrique sans cjamais chercher à aller plus loin* qui se fait inévitablement découvrir lors des examens ou des défenses avec d'autres élèves.
+L'idée est plus que vous puissiez comprendre les réponses, les adapter à votre façon de coder, voir d'autres façons d'appréhender un problème donné, filer des pistes de réflexion. C'est très important de bien comprendre ce qu'on fait, même si parfois on peut reprendre des choses qu'on ne pige pas trop trop au début. En soi, ce n'est pas "mal", il n'y a pas de notion morale là dedans, ce qui est dommageable c'est de faire de cette pratique une marque de fabrique sans cjamais chercher à aller plus loin (1) qui se fait inévitablement découvrir lors des examens ou des défenses avec d'autres élèves.
 
-* càd prendre le temps de décortiquer ce qu'on ne comprend pas - la piscine n'est pas une course - et ça aide beaucoup pour les futurs exos !
+(1) càd prendre le temps de décortiquer ce qu'on ne comprend pas - la piscine n'est pas une course - et ça aide beaucoup pour les futurs exos !
 
 === Nota Bene ===
 
