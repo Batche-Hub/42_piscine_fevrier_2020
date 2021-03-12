@@ -8,7 +8,7 @@ void	ft_putchar(char c)
 // == Lumière ==
 // N'importe quel entier en base 10 % 10 aura pour reste son unité.
 // == Question ==
-// Quelle est, en base 10, la représention du chiffre 0 ?
+// Quelle est, en ascii, la représention du chiffre 0 ?
 void	ft_putnbr(int nb)
 {
 	ft_putchar(nb % 10 + 48);
