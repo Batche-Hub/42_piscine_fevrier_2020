@@ -19,4 +19,6 @@ Le reste est ok.
 
 === A venir ===
 
-Les pdfs des sujets. Des explications plus longues sur les notions, j'ai paré au plus vite face au nombre de clone du repo afin qu'au moins il y ait une petite base plutôt que du code brut. J'insiste vraiment sur le fait de comprendre ce qu'on fait, le fait que vous cloniez n'est en soi véritablement pas un problème tant que derrière il y a la volonté de s'emparer du sujet et de métaboliser ce que vous aurez appris ! Il se peut aussi que vous souhaitiez cloner ce repo pour comparer le résultat des codes avec le vôtre, dans ce cas là, c'est cool !
+Les pdfs des sujets. La résolution des days que je n'ai pas eu le temps de faire. Des explications plus longues sur les notions, j'ai paré au plus vite face au nombre de clone du repo afin qu'au moins il y ait une petite base plutôt que du code brut. J'insiste vraiment sur le fait de comprendre ce qu'on fait, le fait que vous cloniez n'est en soi véritablement pas un problème tant que derrière il y a la volonté de s'emparer du sujet et de métaboliser ce que vous aurez appris ! Il se peut aussi que vous souhaitiez cloner ce repo pour comparer le résultat des codes avec le vôtre, dans ce cas là, c'est cool !
+
+Si vous avez des suggestions pour améliorer le repo (par exemple proposer des notions à expliquer, disons dans un premier temps basiques, dans des textes avec exemples à part, ça me branche si j'ai le temps !) ==> chebadad -at- lilo.org
