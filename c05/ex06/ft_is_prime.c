@@ -6,7 +6,7 @@
 // J'ai mis n < nb / 2 car c'est une limite satisfaisante pour les tests.
 // COmme dit plus haut, on pourrait essayer de calculer une approximation de la racine carrée de nb, mais j'avais la flemme.
 // On pourrait d'ailleurs ne tester que si le nombre est divisible sans reste par les nombres premiers qui le précèdent
-// Mais cela demanderait... de connaître tous les nombres premiers et les tester un par un.
+// Mais cela demanderait... de connaître tous les nombres premiers qui précèdent le nombre à tester.
 // Pour tester si votre fonction renvoie le bon résultat : http://compoasso.free.fr/primelistweb/page/prime/liste_online_en.php
 // Ne pas oublier de faire time ./a.out
 // Dépasser les 2 / 3 secondes, c'est RIP.
