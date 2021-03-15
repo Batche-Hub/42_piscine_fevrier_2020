@@ -5,11 +5,11 @@ Ma piscine de Février 2021.
 Ce repo est là pour proposer des solutions qui peuvent être différentes des nombreux autres repos concernant la piscine de 42 (paris).
 Il ne s'agit pas pour vous de copier et coller sans comprendre, même si personnellment je m'en fiche, ce travail n'est pas "personnel" mais le fruit de tout un tas d'intéractions, d'apprentissage etc.
 
-L'idée est plus que vous puissiez comprendre les réponses, les adapter à votre façon de coder, voir d'autres façons d'appréhender un problème donné, filer des pistes de réflexion. C'est très important de bien comprendre ce qu'on fait, même si parfois on peut reprendre des choses qu'on ne pige pas trop trop au début. En soi, ce n'est pas "mal", il n'y a pas de notion morale là dedans, ce qui est dommageable c'est de faire de cette pratique une marque de fabrique sans cjamais chercher à aller plus loin (1) qui se fait inévitablement découvrir lors des examens ou des défenses avec d'autres élèves.
-
-(1) càd prendre le temps de décortiquer ce qu'on ne comprend pas - la piscine n'est pas une course - et ça aide beaucoup pour les futurs exos !
+L'idée est plus que vous puissiez comprendre les réponses, les adapter à votre façon de coder, voir d'autres façons d'appréhender un problème donné, filer des pistes de réflexion.
 
 === Nota Bene ===
+
+Cette piscine a été faite avant le nouvelle norme (version 3.0), aussi il y a des tonnes de choses qui ne sont plus valables sous l'angle de la norme (les ternaires, les tableaux à taille variable (comme dans le rush 00)) etc.
 
 Tous les days que j'ai fait ont été validé à 100% (je n'ai pas fait les days 10 12 et 13). Par contre, le dernier exo du sh01 est FAUX. Presque fonctionnel, mais faux, pour une sombre histoire d'échappement. ;)
 
@@ -21,6 +21,6 @@ Le reste est ok.
 
 === A venir ===
 
-Les pdfs des sujets. La résolution des days que je n'ai pas eu le temps de faire. Des explications plus longues sur les notions, j'ai paré au plus vite face au nombre de clone du repo afin qu'au moins il y ait une petite base plutôt que du code brut. J'insiste vraiment sur le fait de comprendre ce qu'on fait, le fait que vous cloniez n'est en soi véritablement pas un problème tant que derrière il y a la volonté de s'emparer du sujet et de métaboliser ce que vous aurez appris ! Il se peut aussi que vous souhaitiez cloner ce repo pour comparer le résultat des codes avec le vôtre, dans ce cas là, c'est cool !
+Les pdfs des sujets. La résolution des days que je n'ai pas eu le temps de faire. Des explications plus longues sur les notions.
 
 Si vous avez des suggestions pour améliorer le repo (par exemple proposer des notions à expliquer, disons dans un premier temps basiques, dans des textes avec exemples à part, ça me branche si j'ai le temps !) ==> chebadad -at- lilo.org
